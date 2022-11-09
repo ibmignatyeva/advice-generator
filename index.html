@@ -27,13 +27,19 @@
           </h1>
         </div>
         <picture class="pattern-divider">
-          <img src="./images/pattern-divider-desktop-.png" alt="line divider" />
+          <source
+            srcset="./src/images/pattern-divider-mobile-.png"
+            media="(max-width: 768px)"
+          />
+          <img
+            src="./src/images/pattern-divider-desktop-.png"
+            alt="Pattern divider"
+          />
         </picture>
       </div>
-      </main>
-          <picture class="icon">
-        <img src="./images/icon-dice.jpg" alt="icon dice" />
+      <picture class="icon">
+        <img src="./src/images/icon-dice.jpg" alt="icon dice" />
       </picture>
-    
+    </main>
   </body>
 </html>
